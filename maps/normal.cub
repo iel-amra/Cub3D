@@ -4,8 +4,8 @@ WE ./ressources/texture_wall3.xpm
 EA ./ressources/texture_wall4.xpm
 
 
-F 0,200,0
-C 0,0,200
+F 0,100,0
+C 0,0,100
 
 
 
