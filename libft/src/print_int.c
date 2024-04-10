@@ -1,0 +1,73 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_int.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: glemoine <glemoine@student.42lyon.fr>      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/11/13 13:47:12 by iel-amra          #+#    #+#             */
+/*   Updated: 2023/02/06 15:23:40 by glemoine         ###   ########lyon.fr   */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "ft_printf.h"
+
+static int	len_integer(int n)
+{
+	int	len;
+
+	len = 0;
+	if (n == 0)
+		return (1);
+	while (n != 0)
+	{
+		n /= 10;
+		len++;
+	}
+	return (len);
+}
+
+static int	ft_putabs(long nb, int fd)
+{
+	if (nb < 0)
+		nb *= -1;
+	if (nb >= 10)
+		ft_putabs(nb / 10, fd);
+	ft_putchar_fd(nb % 10 + 48, fd);
+	return ((int) nb);
+}
+
+int	print_int(va_list args, char *flags, int fd)
+{
+	int	nb;
+	int	len;
+	int	prec;
+
+	nb = va_arg(args, int);
+	len = len_integer(nb);
+	prec = preci(flags);
+	while (prec > len)
+	{
+		(void)!write(fd, "0", 1);
+		len++;
+	}
+	ft_putabs(nb, fd);
+	return (0);
+}
+
+int	len_print_int(va_list args, char *flags)
+{
+	va_list	dup_args;
+	int		nb;
+	int		len;
+	int		prec;
+
+	va_copy(dup_args, args);
+	nb = va_arg(dup_args, int);
+	len = len_integer(nb);
+	prec = preci(flags);
+	va_end(dup_args);
+	while (prec > len)
+		len++;
+	return (len);
+}
