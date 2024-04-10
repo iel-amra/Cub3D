@@ -46,7 +46,7 @@ Cub3D is a project at 42, a programming school, focusing on raycasting technolog
 
 ![Product Name Screen Shot][product-screenshot]
 
-# Features
+### Features
 Rendering of a 3D maze using raycasting.
 Textured walls and sprites.
 Player movement and collision detection.
