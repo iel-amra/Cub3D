@@ -53,6 +53,12 @@ Player movement and collision detection.
 Ability to rotate the camera.
 Basic interactions with the environment.
 
+### Rules
+The program should read a scene description from a .cub file.
+The scene description includes specifications for the resolution, textures, colors, and map layout.
+The player should be able to move within the map using arrow keys, and rotate the view using left and right arrow keys.
+The player's objective is to navigate through the maze, avoiding obstacles and finding a way to reach the designated goal.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
