@@ -116,11 +116,10 @@ Keys :
 
 ## Map creation
 
-To build a map, create a file with a .ber extension and fill it with the following characters :
+To build a map, create a file with a .cub extension and fill it with the following characters :
 - 0 : Air
 - 1 : Walls
 - N, S, E, W : Player starting position and orientation (Only 1)
-- E : Exit (At least 1)
 
 The map needs to be closed, else the game won't start, and it's extension needs to be .cub
 For example the following file :
@@ -130,9 +129,6 @@ For example the following file :
 1P0C0E1
 1111111
 ```
-Gives the following map :
-
-<img src="https://github.com/iel-amra/Cub3D/blob/main/img/screenshot_map.png?raw=true" alt="map-screenshot" width="500"/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
