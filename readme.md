@@ -51,13 +51,12 @@ Cub3D is a project at 42, a programming school, focusing on raycasting technolog
 * Textured walls and sprites.
 * Player movement and collision detection.
 * Ability to rotate the camera.
-* Basic interactions with the environment.
+* Possibility to create or customize a map.
 
 ### Rules
 * The program should read a scene description from a .cub file.
 * The scene description includes specifications for the resolution, textures, colors, and map layout.
-* The player should be able to move within the map using arrow keys, and rotate the view using left and right arrow keys.
-* The player's objective is to navigate through the maze, avoiding obstacles and finding a way to reach the designated goal.
+* The player should be able to move within the map using arrow keys, and rotate the view using the mouse or the left and right arrow keys.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,7 +65,7 @@ Cub3D is a project at 42, a programming school, focusing on raycasting technolog
 <!-- GETTING STARTED -->
 ## Getting Started
 
-So_long was developed and tested only on ubuntu, but should work well on other debian based distribution
+Cub3D was developed and tested only on ubuntu, but should work well on other debian based distribution
 
 ### Prerequisites
 
@@ -79,15 +78,15 @@ sudo apt-get update && sudo apt-get install xorg libxext-dev zlib1g-dev libbsd-d
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone git@github.com:iel-amra/So_long.git
    ```
-2. Enter the So_long folder and compile
+   git clone git@github.com:iel-amra/Cub3D.git
    ```
-   cd So_long && make
+2. Enter the Cub3D folder and compile
+   ```
+   cd Cub3D && make
    ```
 
-That's it ! So_long is now installed on your machine.
+That's it ! Cub3D is now installed on your machine.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +106,7 @@ You can launch any map you want with the following syntax :
 ```
 
 Keys :
-* Deplacement : W,A,S,D or the arrow keys
+* Deplacement : W,A,S,D and the arrow keys
 * Exit the game : Escape
 * Activate the fly cheat : V
 
