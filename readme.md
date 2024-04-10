@@ -150,5 +150,5 @@ My github : [https://github.com/iel-amra](https://github.com/iel-amra)
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ihab-el-amrani
-[product-screenshot]: https://github.com/iel-amra/Cub3D/blob/main/img/screenshot.png?raw=true
+[product-screenshot]: https://github.com/iel-amra/Cub3D/blob/main/screenshot.png?raw=true
 [map-screenshot]: https://github.com/iel-amra/So_long/blob/main/img/screenshot_map.png?raw=true
