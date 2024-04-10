@@ -41,15 +41,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Cub3D is an implementation of raycasting developed for linux with a library called Minilibx.
+Cub3D is a project at 42, a programming school, focusing on raycasting technology to create a simple 3D game reminiscent of the classic Wolfenstein 3D. The objective is to render a maze in a 3D perspective using raycasting techniques, where the player can navigate through the maze and interact with the environment.
+
 
 ![Product Name Screen Shot][product-screenshot]
 
-The game is purposely designed to be hard and frustrating.
-
-It's possible to build custom maps by creating a file with a .ber extension (see below)
-
-Since the subject only allowed Minilibx, all the physices and frame management is manually implemented. The collisions, animations and map building are manually implemented. The physics and display are optimized so the game can be rendered using the processor only, on one core (Imposed by the subject).
+# Features
+Rendering of a 3D maze using raycasting.
+Textured walls and sprites.
+Player movement and collision detection.
+Ability to rotate the camera.
+Basic interactions with the environment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
