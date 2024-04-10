@@ -95,14 +95,14 @@ That's it ! Cub3D is now installed on your machine.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To start the first map of the game, enter the following command in your terminal :
-```
-./so_long map/map1.ber
-```
-
 You can launch any map you want with the following syntax :
 ```
-./so_long [map_name].ber
+./cub3D [path_to_map]
+```
+
+To start the first map of the game, enter the following command in your terminal :
+```
+./cub3D maps/normal.cub
 ```
 
 Keys :
