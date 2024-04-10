@@ -106,9 +106,9 @@ To start the first map of the game, enter the following command in your terminal
 ```
 
 Keys :
-* Deplacement : W,A,S,D and the arrow keys
+* Deplacement : W,A,S,D
+* Camera : The arrow keys and mouse cursor
 * Exit the game : Escape
-* Activate the fly cheat : V
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,13 +118,11 @@ Keys :
 
 To build a map, create a file with a .ber extension and fill it with the following characters :
 - 0 : Air
-- 1 : Walls, Floor and Ceiling
-- P : Player starting position (Only 1)
-- C : Collectibles (At least 1)
+- 1 : Walls
+- N, S, E, W : Player starting position and orientation (Only 1)
 - E : Exit (At least 1)
 
-The map needs to be a rectangle, else the game won't start.
-
+The map needs to be closed, else the game won't start, and it's extension needs to be .cub
 For example the following file :
 
 ```
