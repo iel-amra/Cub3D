@@ -150,12 +150,36 @@ After these lines, you can create the plan of map with the following characters 
 - Spaces : Tabulation for the outside of the map
 
 The map needs to be closed, else the game won't start, and it's extension needs to be .cub
-For example the following file :
+
+# Example :
 
 ```
-1111111
-1P0C0E1
-1111111
+NO ressources/texture_wall1.xpm
+SO ./ressources/texture_wall2.xpm
+WE ./ressources/texture_wall3.xpm
+EA ./ressources/texture_wall4.xpm
+
+
+F 0,100,0
+C 0,0,100
+
+
+
+
+        1111111111111111111111111
+        1000000000110000000000001
+        1011000001110000000000011
+        10010000000000000000001
+111111111011000001110000000000011
+100000000011000001110111110111111
+111101111111110111000000100001111
+11110111111111011101010010001
+11000000110101011100000010001
+10000000000000001100000010001
+10000000000000001101010010001
+11000001110101011101000000N1111
+11110111 1110101 101111010001
+11111111 1111111 111111111111
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
