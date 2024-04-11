@@ -100,7 +100,7 @@ You can launch any map you want with the following syntax :
 ./cub3D [path_to_map]
 ```
 
-To start the first map of the game, enter the following command in your terminal :
+To start the normal map, enter the following command in your terminal :
 ```
 ./cub3D maps/normal.cub
 ```
@@ -116,10 +116,31 @@ Keys :
 
 ## Map creation
 
-To build a map, create a file with a .cub extension and fill it with the following characters :
+To build a map, create a file with a .cub extension. The first 6 lines must be one of the following :
+
+A line to indicate wich texture to display on north facing walls :
+```
+NO [path to north texture]
+```
+A line to indicate wich texture to display on south facing walls :
+```
+SO [path to south texture]
+```
+A line to indicate wich texture to display on west facing walls :
+```
+WE [path to west texture]
+```
+```
+EA [path to east texture]
+```
+
+F []
+
+After these lines, you can create the plan of map with the following characters :
 - 0 : Air
 - 1 : Walls
 - N, S, E, W : Player starting position and orientation (Only 1)
+- Spaces : Tabulation for the outside of the map
 
 The map needs to be closed, else the game won't start, and it's extension needs to be .cub
 For example the following file :
