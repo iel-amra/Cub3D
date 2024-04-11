@@ -118,28 +118,18 @@ Keys :
 
 To build a map, create a file with a .cub extension. The first 6 lines must be one of the following :
 
-A line to indicate wich texture to display on north facing walls :
 ```
+# A line to indicate wich texture to display on north facing walls :
 NO [path to north texture]
-```
-A line to indicate wich texture to display on south facing walls :
-```
+# A line to indicate wich texture to display on south facing walls :
 SO [path to south texture]
-```
 A line to indicate wich texture to display on west facing walls :
-```
 WE [path to west texture]
-```
 A line to indicate wich texture to display on east facing walls :
-```
 EA [path to east texture]
-```
 A line to indicate the floor color :
-```
 F [color in RGB]
-```
 A line to indicate the ceiling color :
-```
 C [color in RGB]
 ```
 
