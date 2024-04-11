@@ -25,7 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/iel-amra/So_long">
+  <a href="https://github.com/iel-amra/Cub3D">
     <img src="https://github.com/iel-amra/Cub3D/blob/main/Cub3D.png?raw=true" alt="Logo" width="400" height="400">
   </a>
 
@@ -191,7 +191,7 @@ C 0,0,100
 
 Ihab El amrani - [Linkedin](https://www.linkedin.com/in/ihab-el-amrani) - iel-amra@student.42lyon.fr
 
-Project Link: [https://github.com/iel-amra/So_long](https://github.com/iel-amra/So_long)
+Project Link: [https://github.com/iel-amra/Cub3D](https://github.com/iel-amra/Cub3D)
 
 My github : [https://github.com/iel-amra](https://github.com/iel-amra)
 
@@ -204,4 +204,3 @@ My github : [https://github.com/iel-amra](https://github.com/iel-amra)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ihab-el-amrani
 [product-screenshot]: https://github.com/iel-amra/Cub3D/blob/main/screenshot.png?raw=true
-[map-screenshot]: https://github.com/iel-amra/So_long/blob/main/img/screenshot_map.png?raw=true
