@@ -130,11 +130,18 @@ A line to indicate wich texture to display on west facing walls :
 ```
 WE [path to west texture]
 ```
+A line to indicate wich texture to display on east facing walls :
 ```
 EA [path to east texture]
 ```
-
-F []
+A line to indicate the floor color :
+```
+F [color in RGB]
+```
+A line to indicate the ceiling color :
+```
+C [color in RGB]
+```
 
 After these lines, you can create the plan of map with the following characters :
 - 0 : Air
