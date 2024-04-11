@@ -134,11 +134,11 @@ A line to indicate wich texture to display on east facing walls :
 ```
 EA [path to east texture]
 ```
-A line to indicate the floor color :
+A line to indicate the floor color in RGB, with each color comprised between 0 and 255 :
 ```
 F [color in RGB]
 ```
-A line to indicate the ceiling color :
+A line to indicate the ceiling color in RGB, with each color comprised between 0 and 255 :
 ```
 C [color in RGB]
 ```
@@ -155,9 +155,9 @@ The map needs to be closed, else the game won't start, and it's extension needs 
 
 ```
 NO ressources/texture_wall1.xpm
-SO ./ressources/texture_wall2.xpm
-WE ./ressources/texture_wall3.xpm
-EA ./ressources/texture_wall4.xpm
+SO ressources/texture_wall2.xpm
+WE ressources/texture_wall3.xpm
+EA ressources/texture_wall4.xpm
 
 
 F 0,100,0

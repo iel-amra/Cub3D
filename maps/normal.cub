@@ -1,7 +1,7 @@
 NO ressources/texture_wall1.xpm
-SO ./ressources/texture_wall2.xpm
-WE ./ressources/texture_wall3.xpm
-EA ./ressources/texture_wall4.xpm
+SO ressources/texture_wall2.xpm
+WE ressources/texture_wall3.xpm
+EA ressources/texture_wall4.xpm
 
 
 F 0,100,0
