@@ -118,7 +118,6 @@ Keys :
 
 To build a map, create a file with a .cub extension. The first 6 lines must be one of the following :
 
-```
 A line to indicate wich texture to display on north facing walls :
 ```
 NO [path to north texture]
